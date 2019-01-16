@@ -37,7 +37,7 @@
 }
 .section1 .picture{
     width: 40%;
-    display: inline-block ; 
+    display: inline-block ;
     margin-top :30px;
     margin-left: 100px ;
 }
@@ -76,7 +76,7 @@
 }
 
 .section1 .picture img{
-    height : 400px; 
+    height : 400px;
     width :500px;
 }
 
@@ -96,7 +96,7 @@
     height :200px;
     position :relative;
     bottom :170px ;
-    left :650px; 
+    left :650px;
 }
 
 .between h1{
