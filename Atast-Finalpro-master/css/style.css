@@ -1,0 +1,316 @@
+#name {
+	font-size: 24px;
+  	padding: 5px 10px;
+  	margin: 10px;
+  	text-transform: uppercase;
+  	font-weight: bold;
+	color: white;
+    text-shadow: 1px 1px black;
+}
+@media screen and (max-width: 320px){
+  #bar {
+    padding: 10px;
+    height: 40px;
+    margin-left: 30% !important;
+}
+}
+@media screen and (max-width: 375px) {
+  #abouttext{
+    padding: 0px;
+    margin:0px;
+    font-size: 14px;
+  }
+  #name {
+    width: 30%
+    padding: 0px;
+    margin: 0px;
+  }
+  #Think {
+    margin-top: 0px;
+    font-size: 30px;
+    line-height: 1.3;
+    font-family: sans-serif;
+    font-weight: 150px;
+    color: white;
+    display: table-cell !important;
+    height: 331px;
+    padding-left: 0% !important;
+  }
+  #holethingi {
+    display: flex;
+  }
+  #bar{
+    padding: 10px;
+    height: 40px;
+    margin-left: 60%;
+  }
+  .empty{
+    display: none;
+  }
+  [data-aos] {
+    transform: none  !important;
+    transition: 0s !important;
+    opacity: 1 !important;
+    transition-property: opacity,transform !important;
+    transition-duration: .4s !important;
+}
+}
+@media screen and (max-width: 1000px) {
+	#abouttext{
+		padding: 0px;
+		margin:0px;
+		font-size: 14px;
+	}
+  #name {
+    width: 30%
+    padding: 0px;
+  	margin: 0px;
+  }
+  #Think {
+    margin-top: 0px;
+    font-size: 30px;
+    line-height: 1.3;
+    font-family: sans-serif;
+    font-weight: 150px;
+    color: white;
+    display: table-cell !important;
+    height: 331px;
+    padding-left: 2%;
+  }
+  #holethingi {
+  	display: flex;
+  }
+  #bar{
+  	padding: 10px;
+  	height: 40px;
+  	margin-left: 60%;
+  }
+  .empty{
+  	display: none;
+  }
+  [data-aos] {
+    transform: none  !important;
+    transition: 0s !important;
+    opacity: 1 !important;
+    transition-property: opacity,transform !important;
+    transition-duration: .4s !important;
+}
+}
+.navbar {
+	font-size: 17px;
+	background-color: rgb(0,0,0,0);
+	border: none;
+	transition: .5s;
+	padding: 10px 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+    text-shadow: 1px 1px black;
+    margin-top:1px; 
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: black;
+	text-shadow: none;
+}
+.change {
+	background-color: white;
+	width: 100%;
+	height: 65px;
+	transition: .5s;
+	padding: 0px 0px;
+}
+.change #name {
+	color: black;
+	text-shadow:none;
+}
+.change #bar {
+	background-color: gray
+}
+.change #myNavbar {
+	background-color: white
+}
+.change .navbar-nav>li>a {
+	color: black;
+	text-shadow:none;
+	font-size: 18px;
+}
+.change .navbar-nav>li>a:hover{
+	color: gray;
+}
+#Home {
+	background-image: url("../images/background.jpg");
+	background-size: 100% 100%;
+}
+#Think{
+	margin-top: 0px;
+    font-size: 60px;
+    line-height: 1.3;
+    font-family: sans-serif;
+    font-weight: 300px;
+    color: white;
+    display: table-cell !important;
+    vertical-align: middle;
+    height: 631px;
+    text-shadow: 2px 2px black;
+}
+#sidebarnav {
+	width:25%;
+	position: absolute !important;
+}
+#containerofstaff {
+	margin-left:25%
+}
+.getinfo {
+	padding: 20px;
+	margin: 10px;
+	transition: 1s ease;
+}
+.getinfo:hover{
+	background-color: gray;
+	margin:0px; 
+	color: white;
+	border: 2px solid black;
+	text-shadow: 1px 1px black;
+}
+.getinfo:hover .imageinfo{
+	border: 2px solid black;
+	width: 100%
+}
+footer {
+	background-color: white;
+}
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin:auto;
+  border-radius: 50%;
+  transition: 1s ease;
+}
+
+.fa:hover {
+    text-decoration: none;
+    padding: 20px;
+	background-color: rgb(0,0,0,0);
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+	font-size: 25px;
+}
+.fa-twitter:before {
+    font-size: 25px;
+}
+.fa-youtube:before {
+    font-size: 25px;
+}
+.fa-facebook:hover {
+  color: #23527c;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-twitter:hover {
+  color: #55ACEE;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-youtube:hover {
+  color: #bb0000;
+}
+.rowcont {
+	margin-left: auto;
+	margin-right: auto;	
+}
+.infoclass {
+	color: gray;
+	display: inline-flex;
+}
+.infoclass h4{
+	font-size: 50px;
+    margin-bottom: 10px;
+    color: #808080;
+    font-weight: 100;
+    display: block;
+    font-weight: bold;
+}
+.infoclass h5{
+	font-size: 50px;
+    margin-bottom: 10px;
+    color: #808080;
+    font-weight: 100;
+    display: block;
+    font-weight: bold;
+}
+.infoss {
+	padding:30px;
+    margin-bottom: 40px;
+}
+.infoname{
+	margin-bottom: 0;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: .1em;
+}
+.insidetheinfo{
+	background-color: rgb(0,0,0,0);
+    transition: 1s ease;
+    padding: 15px;
+    bottom: 10px;
+}
+.insidetheinfo:hover{
+	background: #808080;
+  	bottom: 10px;
+  	-webkit-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+  	-moz-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+	margin-bottom: 0;
+}
+.insidetheinfo:hover .infoclass h4{
+	color: white;
+}
+.insidetheinfo:hover .infoclass h5{
+	color: white;
+}
+#years {
+	padding-bottom: 25px;
+}
+.infostittle {
+	font-size: 55px;
+    margin-bottom: 0px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #000;
+}
+.clubname:hover{
+	text-decoration: none;
+	color: red;
+}
+.contactbox:hover {
+	box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+	background-color: white;
+}
+.contactbox {
+	transition: 1s ease;
+}
+#bar2 {
+	background-color: gray;
+}
+.navbar-toggle .icon-bar{
+	color: white;
+}
+.navbar-toggle {
+  background-color: gray;
+  border-color: #333;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
