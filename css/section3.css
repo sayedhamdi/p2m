@@ -1,0 +1,55 @@
+.section3 {
+    background-color: #ff3232 ;
+    height :600px;
+    width: 100% ;
+}
+
+.section3 .products {
+    display: flex ;
+}
+
+.section3 .product img{
+    height :250px;
+    width :250px;
+}
+
+.section3 .product h3{
+    width: 70% ;
+    margin-left: auto ;
+    margin-right :auto;
+    color :white;
+}
+
+.section3 h1{
+    color :white;
+    font-family: serif ;
+    font-weight: bolder ;
+    font-size: 40px ;
+    padding-top :40px;
+    margin-bottom: 50px ;
+}
+
+
+.section3 .product{
+    flex :1;
+    background-color: #1e1d1d ;
+    margin-left :30px ;
+    margin-right: 50px ;
+    height :330px;
+
+    margin-top: 20px ;
+    -webkit-transition: background-color 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s;
+    -webkit-transition: transform 1s; /* For Safari 3.1 to 6.0 */
+    transition: transform 1s;
+    box-shadow:  2px 2px 5px black ;
+}
+
+.section3 .product:hover{
+    transform: scale(1.2) ;
+    background-color: white ;
+}
+
+.section3 .product:hover  h3{
+    color :black;
+}
